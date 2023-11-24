@@ -5,38 +5,107 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: inter, sans-serif;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ************************************ */
+/* Digital Bussinesscard project styles */
+/* ************************************ */
+
+html,
+body {
+  background-color: #23252cff;
+  color: white;
+}
+
+.digital-card-container {
+  margin: 200px auto;
+  max-width: 290px;
+  background-color: #1a1b21ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.digital-card-content {
+  padding: 25px;
+
+}
+
+.bio-info {
+  text-align: center;
+}
+
+.bio-info > h2 {
+  margin-block: 5px;
+}
+
+.dc-position {
+  margin-block: 0;
+  color: rgb(233, 158, 101);
+  font-size: 13px;
+}
+
+.dc-website {
+  font-size: 10px;
+  margin-bottom: 15px;
+  color: rgb(168, 168, 168);
+}
+
+.about-info h4 {
+  color: lightgrey;
+  margin: 30px 0 0 0;
+}
+
+.about-info p {
+  color: rgb(168, 168, 168);
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.btn-container {
+  display: flex;
+  align-content: space-between;
+}
+
+.dc-btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dc-btn-light {
+  background-color: #efefefff;
+}
+
+.dc-btn-blue {
+  margin-left: auto;
+  color: white;
+  background-color: #5093e2ff;
+}
+
+.digital-card-footer {
+  background-color: #161619ff;
+  padding: 12px 25px;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+.digital-card-footer > a {
+  box-sizing: border-box;
+  margin: 0 35px;
+}
+
+.digital-card-footer > a:hover {
+    cursor: pointer;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
