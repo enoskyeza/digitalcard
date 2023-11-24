@@ -1,13 +1,21 @@
 import React from 'react'
-import Main from './components/Main'
+import Card from './components/Card'
+import data from './components/data'
 
 import './App.css'
 
 function App() {
+  const people = data.map(person => {
+      return <Card
+                  {...person}
+      />
+  })
+
+  console.log(people)
 
   return (
     <>
-      <Main />
+      { people }
     </>
   )
 }
