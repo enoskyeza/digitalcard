@@ -30,8 +30,8 @@ const Card = (props) => {
             </div>
             <div className='digital-card-footer'>
             <IconContext.Provider value={{ color: "grey", className: "", size: "20px" }}>
-                <a href={props.github} target='_blank'><FaSquareGithub /></a>
-                <a href={props.linkedin} target='_blank'><FaLinkedin /></a>
+                <a href={props.socials.github} target='_blank'><FaSquareGithub /></a>
+                <a href={props.socials.linkedin} target='_blank'><FaLinkedin /></a>
             </IconContext.Provider>
             </div>
         </div>
