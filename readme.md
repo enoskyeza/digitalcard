@@ -8,3 +8,11 @@ Project Setup with Vite
     - Go to project directory
     - run npm install
     - run npm run dev
+
+Expand Project
+    - create database to store user data
+    - Add form for users to add data (stored to your data-base)
+    - Add theme color change option
+    - add design choice option
+    - add qr code option
+    - add downloadable feature

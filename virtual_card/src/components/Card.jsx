@@ -9,6 +9,7 @@ const Card = (props) => {
 
     return (
         <div className='digital-card-container'>
+            <img src='' />
             <div className='digital-card-img'></div>
             <div className='digital-card-content'>
                 <div className='bio-info'>
