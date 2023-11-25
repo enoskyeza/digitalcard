@@ -9,7 +9,7 @@ const Card = (props) => {
 
     return (
         <div className='digital-card-container'>
-            <img src={`./${props.img}`} />
+            <img src={`./${props.img}`} className='card-image' />
             <div className='digital-card-img'></div>
             <div className='digital-card-content'>
                 <div className='bio-info'>
