@@ -7,6 +7,7 @@ import './App.css'
 function App() {
   const people = data.map(person => {
       return <Card
+                  key = {person.id}
                   {...person}
       />
   })

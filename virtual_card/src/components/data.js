@@ -1,6 +1,7 @@
 export default [
     {
         id: 1,
+        img: "default-male.jpeg",
         name: "Enos Kyeza",
         position: "Front End Developer",
         socials: {
